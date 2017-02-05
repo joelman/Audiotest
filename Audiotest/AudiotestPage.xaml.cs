@@ -8,7 +8,7 @@ namespace Audiotest
 		void Handle_Clicked(object sender, System.EventArgs e)
 		{
 			// it would be nice if this threw an exception instead of failing silently
-			Audio.Manager.PlaySound("nonexistent.mp3");
+			// Audio.Manager.PlaySound("nonexistent.mp3");
 
 			// doesn't play when first clicked on Android
 			Audio.Manager.PlaySound("tada.mp3");
